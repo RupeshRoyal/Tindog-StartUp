@@ -1,0 +1,161 @@
+
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Bold", sans-serif;
+}
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+/* title section */
+.title-h1{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: left;
+}
+#title.container-fluid{
+  padding: 0 15%;
+}
+
+.title-image {
+  /* padding: 15px; */
+  padding-top: 70px;
+  width: 10%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 43%;
+  top: 12%;
+}
+
+@media(max-width:900px) {
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* navigation bar */
+.navbar {
+  /* padding: 0 0 4.5rem 0; */
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+/* buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-h3{
+  font-size: 2.5rem;
+  padding: 2% 3%;
+}
+
+p {
+  color: #8f8f8f;
+  padding: 0 7%;
+}
+
+.features-image {
+  color: #ef8172;
+}
+
+.features-image:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials  */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials-h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 15%;
+  height: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+}
+
+.press-image {
+  width: 15%;
+  height: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.pricing-h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-h3{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+
+/* cta */
+.cta-h3{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 15px 15%;
+  font-weight: 900;
+  margin: 5px 10px;
+}
+
+/* footer */
+#footer {
+}
+
+.footer-logos {
+  padding: 100px 10px 20px 10px;
+}
